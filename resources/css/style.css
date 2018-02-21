@@ -9,6 +9,10 @@
 html{
 	background-color: #fff;
 	text-rendering: optimizeLegibility;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	font-size:20 px;
+	text-rendering: optimizeLegibility;
 }
 
 body, html {
@@ -36,7 +40,6 @@ nav {
 }
 
 
-
 .top-nav{
 	float: right;
 	list-style: none;
@@ -48,10 +51,29 @@ nav {
 	margin-left:40px;=
 }
 
+
+
+.top-nav li a:link,
+.top-nav li a:visited{
+	padding:8px 0;
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size:90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s ;
+
+}
+.top-nav li a:hover,
+.top-nav li a:active{
+	border-bottom: 2px solid #cf711e;
+
+}
+
 /*----Hero ----*/
 
 header{
-	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../img/hero.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(../img/hero.jpg);
 	background-size:cover;
 	background-position:center;
 	position: relative;
@@ -67,5 +89,42 @@ header{
     color: white;
 }
 
+.hero-box h1{
+	font-size: 4em;
+}
 
+
+.hero-box a{
+	font-size : 1.2em;
+
+}
+
+
+/*----buttons ----*/
+
+.btn:link,
+.btn:visited{
+	display: inline-block;
+	padding: 10px 20px;
+	font-weight: 300;
+	text-decoration: none;
+	color:#fff;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+
+.btn-orange:link,
+.btn-orange:visited{
+	background-color: #cf711e;
+	border: 1px solid #cf711e;
+	color:#fff;
+	margin-right:15px ;
+}
+
+.btn-orange:hover,
+.btn-orange:active{
+	border: 1px solid #ba651b;
+	background-color: #ba651b;
+
+}
 
