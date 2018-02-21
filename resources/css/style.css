@@ -1,0 +1,25 @@
+
+/*----Default style---*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	background-color: #fff;
+	text-rendering: optimizeLegibility;
+}
+
+/*----Top Nav Bar ----*/
+
+.row {
+	max-width: 1200px;
+	background-color:#fefefe;
+	margin: 0 auto;
+
+}
+
+section{
+	padding:100px;
+}
