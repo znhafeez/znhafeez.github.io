@@ -31,11 +31,13 @@ section{
 	width: auto;
 	float: left;
 	margin-top: 20px;
+	padding-left: 40px;
+
+
 }
 
 nav {
 	max-width: 1200px;
-	background-color:#fefefe;
 	margin: 0 auto;
 }
 
@@ -44,11 +46,13 @@ nav {
 	float: right;
 	list-style: none;
 	margin-top: 60px;
+	margin-left:240px;
 }
 
 .top-nav li{
 	display: inline-block;
-	margin-left:40px;=
+	margin-left:40px;
+
 }
 
 
