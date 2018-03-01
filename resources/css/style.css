@@ -23,6 +23,11 @@ section{
 	padding:60px 80px;
 }
 
+/*--Cool fixed hipster scrolling effects --*/
+
+
+
+
 /*----Top Nav Bar ----*/
 
 
@@ -134,8 +139,9 @@ header{
 /*----features ----*/
 
 #paragraph {
-	padding: 200px 78px 20px 78px;
+	padding: 80px 78px 20px 78px;
 }
+
 
 #screenshots{
 	display:inline-block;
@@ -145,3 +151,8 @@ header{
   width: 100%;
   height: auto;    
 }
+/*----quote ----*/
+
+
+
+
