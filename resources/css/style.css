@@ -9,10 +9,9 @@
 html{
 	background-color: #fff;
 	text-rendering: optimizeLegibility;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	font-weight:300;
 	font-size:20 px;
-	text-rendering: optimizeLegibility;
 }
 
 body, html {
@@ -30,15 +29,27 @@ section{
 
 /*----Top Nav Bar ----*/
 
-
 .logo{
 	height:120px;
 	width: auto;
 	float: left;
 	margin-top: 20px;
 	padding-left: 40px;
+}
+
+/*-----Product page -----*/
+.container h1{
+	font-size: 3em;
+}
 
 
+
+footer{
+	background-color: #C86D2A;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 nav {
@@ -74,7 +85,7 @@ nav {
 }
 .top-nav li a:hover,
 .top-nav li a:active{
-	border-bottom: 2px solid #cf711e;
+	border-bottom: 2px solid #C86D2A;
 
 }
 
@@ -106,9 +117,21 @@ header{
 	font-size : 1.2em;
 
 }
+.quote{
+	background-image: url(../img/quote-back.png);
+	background-size:cover;
+	text-align: center;
 
+}
+
+.support{
+	align-items: center;
+}
 
 /*----buttons ----*/
+footer .btn:hover{
+	color: #C86D2A;
+}
 
 .btn:link,
 .btn:visited{
@@ -149,10 +172,14 @@ header{
 
 #screenshots img{
   width: 100%;
-  height: auto;    
+  height: auto;
 }
 /*----quote ----*/
 
 
-
-
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
