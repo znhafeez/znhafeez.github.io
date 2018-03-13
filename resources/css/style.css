@@ -45,7 +45,7 @@ section{
 
 
 footer{
-	background-color: #C86D2A;
+	background-color: #25A866;
 	color: #FFFFFF;
 	text-align: center;
 	padding-top: 10px;
@@ -85,7 +85,7 @@ nav {
 }
 .top-nav li a:hover,
 .top-nav li a:active{
-	border-bottom: 2px solid #C86D2A;
+	border-bottom: 2px solid #25A866;
 
 }
 
@@ -130,7 +130,7 @@ header{
 
 /*----buttons ----*/
 footer .btn:hover{
-	color: #C86D2A;
+	color: #25A866;
 }
 
 .btn:link,
@@ -146,16 +146,16 @@ footer .btn:hover{
 
 .btn-orange:link,
 .btn-orange:visited{
-	background-color: #cf711e;
-	border: 1px solid #cf711e;
+	background-color: #25A866;
+	border: 1px solid #25A866;
 	color:#fff;
 	margin-right:15px ;
 }
 
 .btn-orange:hover,
 .btn-orange:active{
-	border: 1px solid #ba651b;
-	background-color: #ba651b;
+	border: 1px solid #21965B;
+	background-color: #21965B;
 
 }
 
